@@ -1,59 +1,71 @@
 body {
-	color: #ffff;
+	margin:0 auto;
+	color: #fff;
     background-color: black;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: normal;
+	font-weight:normal;
+	padding: 20px;
+	max-width: 1400px;
 }
-
 h1 {
 	border-bottom: 3px solid rgb(216, 218, 230);
-	background-color: #92b4f3;
+	background-color: #90a7d0;
 	color: #ddd;
 	padding: 16px 16px;
 	border-radius: 10px;
+	text-align: center;
 }
 
-h2 {
-	background-color: rgb(75, 72, 72);
-	text-align:left;
-    padding-left: 20px;
-    border-radius: 10px;
-	font-weight: normal;	
+#foto {
+	size: 10px;
+	border-radius: 200px;
 }
 
 h3 {
 	background-color: rgb(75, 72, 72);
 	text-align:left;
-    padding-left: 20px;
+    padding-left: 16px;
     border-radius: 10px;
 	font-weight: normal;
+	
 }
 
-.secao {
+.container {
 	background-color: rgb(107, 104, 104);
-	padding-left:  20px;
-	padding-right: 20px;
+	padding: 15px 2%;
     border-radius: 15px;
-	padding-top: 10px;
-	padding-bottom:10px;
-	box-sizing: border-box;
 }
 
 a {
 	text-decoration:none;
-	color: rgb(172, 172, 248);
+	color: rgb(152, 149, 241);
 }
 
 a:hover {
 	text-decoration:none;
-	color: #fa0;
+	color: rgb(49, 49, 92);
 }
 
-.photoMarcelo {
-	float:right;
-	margin-right: 15px;
-    border-radius: 200px;
-    margin-top: 15px;
+
+.linkedin {
+	color: rgb(41, 65, 250);
+}
+
+.instagram {
+	color: #e1306c;
+}
+
+.facebook {
+	color:#4267b2;
+}
+
+.github {
+	color: black
+
+}
+
+.whatsapp {
+	color:#34af23;
 }
 
 .footer {
@@ -63,4 +75,3 @@ a:hover {
 #topo {
 	font-size: small;
 }
-
