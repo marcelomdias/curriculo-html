@@ -5,8 +5,9 @@ body {
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-weight:normal;
 	padding: 20px;
-	max-width: 1400px;
+	max-width: 1600px;
 }
+
 h1 {
 	border-bottom: 3px solid rgb(216, 218, 230);
 	background-color: #90a7d0;
@@ -16,18 +17,12 @@ h1 {
 	text-align: center;
 }
 
-#foto {
-	size: 10px;
-	border-radius: 200px;
-}
-
 h3 {
 	background-color: rgb(75, 72, 72);
 	text-align:left;
     padding-left: 16px;
     border-radius: 10px;
 	font-weight: normal;
-	
 }
 
 .container {
@@ -46,25 +41,27 @@ a:hover {
 	color: rgb(49, 49, 92);
 }
 
+.linkedin .instagram .facebook .github .whatsapp {
+	color:rgb(165, 192, 248);
+}
 
-.linkedin {
+.linkedin:hover{
 	color: rgb(41, 65, 250);
 }
 
-.instagram {
+.instagram:hover {
 	color: #e1306c;
 }
 
-.facebook {
+.facebook:hover {
 	color:#4267b2;
 }
 
-.github {
+.github:hover {
 	color: black
-
 }
 
-.whatsapp {
+.whatsapp:hover {
 	color:#34af23;
 }
 
